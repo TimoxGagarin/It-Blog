@@ -1,8 +1,11 @@
 *{
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
 	color: black;
+}
+
+html{
+	background-color: #15120F;
 }
 
 a{
@@ -23,6 +26,18 @@ li{
 	list-style-type: none;
 }
 
+input{
+	margin: 10px 0;
+	background-color: #1D1F21;
+	color: #757575;
+}
+
+input:focus{
+	outline-style: none;
+    outline-width: 0px !important;
+    outline-color: none !important;
+}
+
 .header{
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -41,12 +56,12 @@ li{
 	transition: all 0.5s ease-out;
 }
 
-.category a{
-	color: #D29333 !important;
-}
-
 .category.active{
 	border-bottom: 1px solid #D29333;
+}
+
+.category a{
+	color: #D29333 !important;
 }
 
 .category:hover{
@@ -60,25 +75,89 @@ li{
 .blogs{
 	background-color: #1D1F21;
 	padding-top: 35px;
+	padding-bottom: 35px;
+}
+
+.all-articles{
+	
+}
+
+.articles-not-found{
+	margin-top: 45px;
+	margin-bottom: 45px;
 }
 
 .article{
 	background-color: #322F32;
-	padding-top: 20px;
-	padding-left: 25px;
-	padding-right: 25px;
+	padding: 25px;
 	border-radius: 25px;
 	margin: 35px 0;
+	height: 300px;
+}
+
+.article-content{
+	margin-left: 50px;
+	height: 100%;
+	width: 100%;
+}
+
+.article-img{
+	height: 100%;
 }
 
 .article-title{
+	height: 10%;
 	font-weight: 900;
+	font-size: 30px;
+	overflow: hidden;
+	color: transparent;
+	-webkit-background-clip: text;
+	background-clip: text;
+	background-image: linear-gradient(to right, #FFDEB1, #FFDEB1, rgba(0, 0, 0, 0));
+}
+
+.article-title:hover{
+	color: #FFDEB1;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.article-category{
+	font-size: 16px;
 	color: #FFDEB1;
 }
 
 .article-text{
+	height: 80%;
 	font-size: 20px;
 	font-weight: 600;
+	margin-bottom: 0;
+	overflow: hidden;
+	color: transparent;
+	-webkit-background-clip: text;
+	background-clip: text;
+	background-image: linear-gradient(to bottom, #000, #000, rgba(0, 0, 0, 0));
+}
+
+
+.article-info{
+	height: 10%;
+}
+
+.comment-pubdate{
+	text-align: center;
+}
+
+.comments-btn{
+	color:	#FFFFFF;
+}
+
+.date{
+	color:	#FFFFFF;
+}
+.views{
+	color:	#FFFFFF;
 }
 
 .footer{

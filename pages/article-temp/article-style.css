@@ -1,0 +1,92 @@
+.page__article{
+	background-color: #322F32;
+	padding: 25px;
+	border-radius: 25px;
+	margin: 35px 0;
+}
+
+.page__article-content{
+	margin-left: 50px;
+	width: 100%;
+}
+
+.page__article-img{
+	width: 100%;
+}
+
+.page__article-title{
+	font-weight: 900;
+	font-size: 30px;
+	color: #FFDEB1;
+}
+
+.page__article-title:hover{
+	color: #FFDEB1;
+}
+
+.page__article-text{
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page__article-info{
+	
+}
+
+.add-comment{
+	background-color: #322F32;
+	padding: 15px;
+	border-radius: 25px;
+	margin: 15px 0;
+}
+
+.add-comment__title{
+	font-size: 30px;
+}
+
+.page__comment{
+	background-color: #322F32;
+	padding: 15px;
+	border-radius: 25px;
+	margin: 15px 0;
+}
+
+.page__comment-text{
+	font-size: 18px;
+	font-weight: 600;
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+
+.page__comment__user-avatar{
+	flex: 0 0 20%;
+	max-width: 20%;
+}
+
+.page__comment__user-nick{
+	flex: 0 0 80%;
+	max-width: 80%;
+	font-size: 30px;
+	margin-left: 15px;
+}
+
+.comment-name{
+	width: 35%;
+}
+
+.comment-email{
+	width: 60%;
+}
+
+.comment-text{
+	background-color: #1D1F21;
+	height: 100px;
+	resize: none;
+}
+
+.comment-text:focus{
+	outline-style: none;
+    outline-width: 0px !important;
+    outline-color: none !important;
+}
